@@ -3,14 +3,22 @@
   "configurations": [
     {
       "name": "C/C++ Runner: Debug Session",
-      "type": "lldb",
+      "type": "cppdbg",
       "request": "launch",
       "args": [],
-      "stopAtEntry": true,
+      "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/Users/Administrator/Desktop/ece150 - Intro to Programming/geesespotter_starter_code",
-      "program": "/Users/Administrator/Desktop/ece150 - Intro to Programming/geesespotter_starter_code/build/Debug/outDebug",
-      "MIMode": "gdb"
+      "cwd": "/Users/Administrator/Desktop/Past Coding Projects/geesespotter_starter_code",
+      "program": "/Users/Administrator/Desktop/Past Coding Projects/geesespotter_starter_code/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
     }
   ]
 }
