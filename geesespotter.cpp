@@ -29,10 +29,6 @@ void printBoard(char *board, std::size_t xdim, std::size_t ydim){
     std::cout << "\n";    
     return;
     }
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
 
 
 void computeNeighbors(char *board, std::size_t xdim, std::size_t ydim) {
